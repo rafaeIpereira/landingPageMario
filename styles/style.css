@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;900&display=swap');
+
+body {
+    /* background-image: linear-gradient(to right, #140442, #190858, #1d0b6f, #210f88, #2413a1); */
+    color: white;
+    background-image: linear-gradient(to right, #590303, #710409, #89070d, #a20b0f, #bc1010);
+    font-family: 'Poppins';
+    font-weight: ;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#title {
+    flex-direction: ;
+    line-height: 10px;
+}
+
+.mario {
+    width: 280px;
+}
+
+li {
+    display: inline-block;
+    margin: 20px;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: rgb(132, 14, 201);
+    transition: 0.3s all;
+}
+
+#inscreva-se-btn {
+    border: 2px solid rgb(132, 14, 201);
+    padding: 10px;
+    border-radius: 15px;
+}
+
+#inscreva-se-btn:hover {
+    transition: 0.3 all;
+    background-color: rgb(132, 14, 201);
+    color: white;
+}
+
+
+main {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+h2 {
+    font-size: 56px; 
+    line-height: 10px;
+    font-family: 'Poppins';
+    font-weight: 500; 
+}
+
+span {
+    color: rgb(172, 230, 14);
+}
+
+.mario-color {
+    color: rgb(6, 160, 65);
+}
+
+p {
+    line-height: 20px;
+    max-width: 500px;
+    font-family: 'Poppins';
+    font-weight: 400;
+}
+
+img {
+    width: 580px;
+    margin-left: 90px;
+}
+
+.animationMario {
+    animation: moveMario 2s infinite alternate ease-in-out;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+form [type="submit"] {
+    height: 50px;
+    width: 50%;
+    background-color: rgb(154, 59, 209);
+    color: white;
+    font-weight: bold;
+}
+
+form [type="submit"]:hover {
+   cursor: pointer;
+   transition: 0.3s all;
+   background-color: rgb(132, 14, 201);
+}
+
+input {
+    margin-top: 20px;
+    height: 20px;
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+}
+
+@keyframes moveMario {
+    from {
+        transform: translate(-5%, -5%) rotate(-5deg);
+    }
+}
